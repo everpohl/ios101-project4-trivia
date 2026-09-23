@@ -1,40 +1,41 @@
-# Project 3 - Trivia Game
+# Project 4 - Trivia Game
 
 Submitted by: Everett Pohl
 
-Trivia Game is an app that presents the user with trivia questions, which they can respond to and attempt to get the correct answers. 
+Trivia is an app that lets users answer trivia questions pulled from the TriviaDB API
 
-Time spent: **4** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] User can view the current question and 4 different answers
-- [x] User can view the next question after tapping an answer
-- [x] User can answer at least 3 different questions
+- [x] User can view and answer at least 5 trivia questions.
+- [x] App retrieves question data from the Open Trivia Database API.
+- [x] Fetch a different set of questions if the user indicates they would like to reset the game.
+- [x] Users can see score after submitting all questions.
+- [x] True or False questions only have two options.
 
 
 The following **optional** features are implemented:
 
-- [x] User can use the vertical orientation of the app on any device
-- [x] User can track the question they are on and how many questions are left
-- [x] User can see how many questions they got correct after answering all questions
-- [x] User should be able to restart the game after they've finished answering all questions
+  
+- [ ] Allow the user to choose a specific category of questions.
+- [ ] Provide the user feedback on whether each question was correct before navigating to the next.
 
 The following **additional** features are implemented:
 
-- [x] Implemented a launch screen for the app. 
+- [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
 Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
 
-[Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
+[Guide]]([https://www.youtube.com/watch?v=GA92eKlYio4](https://youtube.com/shorts/d0oSg2Rhx7o)) .
 
 ## Notes
 
-I had a lot of trouble implementing the horizontal view for the app, I ended up having to get some help from claude. Originally, I had all my buttons and labels in one StackView, but I had to split it into two StackViews and then switched the axis attribute depending on the screen's width and height values. 
+Describe any challenges encountered while building the app.
 
 ## License
 
